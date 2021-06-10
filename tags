@@ -1,0 +1,114 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+-entrypoint	core/python3ActionLoop/Makefile	/^	-ti --entrypoint=\/bin\/bash -v $(PWD):\/mnt \\$/;"	m
+APP_BASE_NAME	gradlew.bat	/^set APP_BASE_NAME=%~n0$/;"	v
+APP_HOME	gradlew.bat	/^set APP_HOME=%DIRNAME%$/;"	v
+Background	core/python3AiActionLoop/samples/smart-body-crop/common.py	/^    Background = 18$/;"	v	class:CocoPart
+CLASSPATH	gradlew.bat	/^set CLASSPATH=%APP_HOME%\\gradle\\wrapper\\gradle-wrapper.jar$/;"	v
+CMD_LINE_ARGS	gradlew.bat	/^set CMD_LINE_ARGS=$/;"	v
+CMD_LINE_ARGS	gradlew.bat	/^set CMD_LINE_ARGS=%*$/;"	v
+CocoColors	core/python3AiActionLoop/samples/smart-body-crop/common.py	/^CocoColors = [(255, 0, 0), (255, 85, 0), (255, 170, 0), (255, 255, 0), (170, 255, 0), (85, 255, 0), (0, 255, 0),$/;"	v
+CocoPairs	core/python3AiActionLoop/samples/smart-body-crop/common.py	/^CocoPairs = [$/;"	v
+CocoPairsNetwork	core/python3AiActionLoop/samples/smart-body-crop/common.py	/^CocoPairsNetwork = [$/;"	v
+CocoPairsRender	core/python3AiActionLoop/samples/smart-body-crop/common.py	/^CocoPairsRender = CocoPairs[:-2]$/;"	v
+CocoPart	core/python3AiActionLoop/samples/smart-body-crop/common.py	/^class CocoPart(Enum):$/;"	c
+DEFAULT_JVM_OPTS	gradlew.bat	/^set DEFAULT_JVM_OPTS=-Dfile.encoding=UTF-8$/;"	v
+DIRNAME	gradlew.bat	/^if "%DIRNAME%" == "" set DIRNAME=.$/;"	v
+DIRNAME	gradlew.bat	/^set DIRNAME=%~dp0$/;"	v
+IMG	core/python3ActionLoop/Makefile	/^IMG=whisk\/actionloop-python-v3.7:latest$/;"	m
+IMG	core/python3AiActionLoop/Makefile	/^IMG=whisk\/actionloop-python-v3.6-ai:latest$/;"	m
+InterMinAbove_Threshold	core/python3AiActionLoop/samples/smart-body-crop/common.py	/^InterMinAbove_Threshold = 6$/;"	v
+Inter_Threshold	core/python3AiActionLoop/samples/smart-body-crop/common.py	/^Inter_Threshold = 0.1$/;"	v
+JAVA_EXE	gradlew.bat	/^set JAVA_EXE=%JAVA_HOME%\/bin\/java.exe$/;"	v
+JAVA_EXE	gradlew.bat	/^set JAVA_EXE=java.exe$/;"	v
+JAVA_HOME	gradlew.bat	/^set JAVA_HOME=%JAVA_HOME:"=%$/;"	v
+LAnkle	core/python3AiActionLoop/samples/smart-body-crop/common.py	/^    LAnkle = 13$/;"	v	class:CocoPart
+LEar	core/python3AiActionLoop/samples/smart-body-crop/common.py	/^    LEar = 17$/;"	v	class:CocoPart
+LElbow	core/python3AiActionLoop/samples/smart-body-crop/common.py	/^    LElbow = 6$/;"	v	class:CocoPart
+LEye	core/python3AiActionLoop/samples/smart-body-crop/common.py	/^    LEye = 15$/;"	v	class:CocoPart
+LHip	core/python3AiActionLoop/samples/smart-body-crop/common.py	/^    LHip = 11$/;"	v	class:CocoPart
+LKnee	core/python3AiActionLoop/samples/smart-body-crop/common.py	/^    LKnee = 12$/;"	v	class:CocoPart
+LShoulder	core/python3AiActionLoop/samples/smart-body-crop/common.py	/^    LShoulder = 5$/;"	v	class:CocoPart
+LWrist	core/python3AiActionLoop/samples/smart-body-crop/common.py	/^    LWrist = 7$/;"	v	class:CocoPart
+Max_Human	core/python3AiActionLoop/samples/smart-body-crop/common.py	/^Max_Human = 96$/;"	v
+Min_Subset_Cnt	core/python3AiActionLoop/samples/smart-body-crop/common.py	/^Min_Subset_Cnt = 4$/;"	v
+Min_Subset_Score	core/python3AiActionLoop/samples/smart-body-crop/common.py	/^Min_Subset_Score = 0.8$/;"	v
+NMS_Threshold	core/python3AiActionLoop/samples/smart-body-crop/common.py	/^NMS_Threshold = 0.1$/;"	v
+Neck	core/python3AiActionLoop/samples/smart-body-crop/common.py	/^    Neck = 1$/;"	v	class:CocoPart
+Nose	core/python3AiActionLoop/samples/smart-body-crop/common.py	/^    Nose = 0$/;"	v	class:CocoPart
+RAnkle	core/python3AiActionLoop/samples/smart-body-crop/common.py	/^    RAnkle = 10$/;"	v	class:CocoPart
+REar	core/python3AiActionLoop/samples/smart-body-crop/common.py	/^    REar = 16$/;"	v	class:CocoPart
+RElbow	core/python3AiActionLoop/samples/smart-body-crop/common.py	/^    RElbow = 3$/;"	v	class:CocoPart
+REye	core/python3AiActionLoop/samples/smart-body-crop/common.py	/^    REye = 14$/;"	v	class:CocoPart
+RHip	core/python3AiActionLoop/samples/smart-body-crop/common.py	/^    RHip = 8$/;"	v	class:CocoPart
+RKnee	core/python3AiActionLoop/samples/smart-body-crop/common.py	/^    RKnee = 9$/;"	v	class:CocoPart
+RShoulder	core/python3AiActionLoop/samples/smart-body-crop/common.py	/^    RShoulder = 2$/;"	v	class:CocoPart
+RWrist	core/python3AiActionLoop/samples/smart-body-crop/common.py	/^    RWrist = 4$/;"	v	class:CocoPart
+SmartBodyCrop	core/python3AiActionLoop/samples/smart-body-crop/inference.py	/^class SmartBodyCrop:$/;"	c
+_SKIP	gradlew.bat	/^set _SKIP=2$/;"	v
+__init__	core/python3AiActionLoop/samples/smart-body-crop/inference.py	/^    def __init__(self, model_url):$/;"	m	class:SmartBodyCrop
+_download_image	core/python3AiActionLoop/samples/smart-body-crop/inference.py	/^    def _download_image(self, image):$/;"	m	class:SmartBodyCrop
+_download_model	core/python3AiActionLoop/samples/smart-body-crop/inference.py	/^    def _download_model(self):$/;"	m	class:SmartBodyCrop
+activate_this_file	core/python3ActionLoop/lib/launcher.py	/^    activate_this_file = path_to_virtualenv + '\/bin\/activate_this.py'$/;"	v
+activate_this_file	core/python3AiActionLoop/lib/launcher.py	/^    activate_this_file = path_to_virtualenv + '\/bin\/activate_this.py'$/;"	v
+args	core/python3ActionLoop/lib/launcher.py	/^  args = json.loads(line)$/;"	v
+args	core/python3AiActionLoop/lib/launcher.py	/^  args = json.loads(line)$/;"	v
+body_parts_dict	core/python3AiActionLoop/samples/smart-body-crop/common.py	/^body_parts_dict = {0: 'Eyes', 1: 'Ears', 2: 'Nose', 3: 'Neck', 4: 'Shoulders',$/;"	v
+code	core/python3ActionLoop/lib/launcher.py	/^        code = compile(f.read(), activate_this_file, 'exec')$/;"	v
+code	core/python3AiActionLoop/lib/launcher.py	/^        code = compile(f.read(), activate_this_file, 'exec')$/;"	v
+crop_image	core/python3AiActionLoop/samples/smart-body-crop/common.py	/^def crop_image(img, humans_list, upper_body, lower_body):$/;"	f
+detect_parts	core/python3AiActionLoop/samples/smart-body-crop/inference.py	/^    def detect_parts(self, image):$/;"	m	class:SmartBodyCrop
+die	gradlew	/^die () {$/;"	f
+draw_humans	core/python3AiActionLoop/samples/smart-body-crop/common.py	/^def draw_humans(img1_raw, human_list):$/;"	f
+end	gradlew.bat	/^:end$/;"	l
+env	core/python3ActionLoop/lib/launcher.py	/^env = os.environ$/;"	v
+env	core/python3AiActionLoop/lib/launcher.py	/^env = os.environ$/;"	v
+estimate_pose	core/python3AiActionLoop/samples/smart-body-crop/common.py	/^def estimate_pose(heatMat, pafMat):$/;"	f
+estimate_pose_pair	core/python3AiActionLoop/samples/smart-body-crop/common.py	/^def estimate_pose_pair(coords, partIdx1, partIdx2, pafMatX, pafMatY):$/;"	f
+execute	gradlew.bat	/^:execute$/;"	l
+fail	gradlew.bat	/^:fail$/;"	l
+findJavaFromJavaHome	gradlew.bat	/^:findJavaFromJavaHome$/;"	l
+get_score	core/python3AiActionLoop/samples/smart-body-crop/common.py	/^def get_score(x1, y1, x2, y2, pafMatX, pafMatY):$/;"	f
+human_conns_to_human_parts	core/python3AiActionLoop/samples/smart-body-crop/common.py	/^def human_conns_to_human_parts(human_conns, heatMat):$/;"	f
+infer	core/python3AiActionLoop/samples/smart-body-crop/inference.py	/^    def infer(self, image, upper_body, lower_body):$/;"	m	class:SmartBodyCrop
+init	gradlew.bat	/^:init$/;"	l
+initialized	core/python3AiActionLoop/samples/smart-body-crop/inference.py	/^    initialized = False$/;"	v	class:SmartBodyCrop
+line	core/python3ActionLoop/lib/launcher.py	/^  line = stdin.readline()$/;"	v
+line	core/python3AiActionLoop/lib/launcher.py	/^  line = stdin.readline()$/;"	v
+load_graph_def	core/python3AiActionLoop/samples/smart-body-crop/inference.py	/^    def load_graph_def(self):$/;"	m	class:SmartBodyCrop
+main	tests/src/test/resources/python_virtualenv/__main__.py	/^def main(args):$/;"	f
+main	tests/src/test/resources/python_virtualenv_invalid_main/mymain.py	/^def main(args):$/;"	f
+main	tests/src/test/resources/python_virtualenv_invalid_venv/__main__.py	/^def main(args):$/;"	f
+mainEnd	gradlew.bat	/^:mainEnd$/;"	l
+naim	tests/src/test/resources/python_virtualenv/__main__.py	/^def naim(args):$/;"	f
+naim	tests/src/test/resources/python_virtualenv_invalid_main/mymain.py	/^def naim(args):$/;"	f
+naim	tests/src/test/resources/python_virtualenv_invalid_venv/__main__.py	/^def naim(dict):$/;"	f
+non_max_suppression	core/python3AiActionLoop/samples/smart-body-crop/common.py	/^def non_max_suppression(heatmap, window_size=3, threshold=NMS_Threshold):$/;"	f
+omega	gradlew.bat	/^:omega$/;"	l
+out	core/python3ActionLoop/lib/launcher.py	/^out = fdopen(3, "wb")$/;"	v
+out	core/python3AiActionLoop/lib/launcher.py	/^out = fdopen(3, "wb")$/;"	v
+parts_dict	core/python3AiActionLoop/samples/smart-body-crop/common.py	/^parts_dict = {'Nose': [0], 'Neck': [1], 'Shoulders': [2, 5], 'Elbows': [3, 6], 'Wrists': [$/;"	v
+path_to_virtualenv	core/python3ActionLoop/lib/launcher.py	/^  path_to_virtualenv = os.path.abspath('.\/virtualenv')$/;"	v
+path_to_virtualenv	core/python3AiActionLoop/lib/launcher.py	/^  path_to_virtualenv = os.path.abspath('.\/virtualenv')$/;"	v
+payload	core/python3ActionLoop/lib/launcher.py	/^      payload = args["value"]$/;"	v
+payload	core/python3ActionLoop/lib/launcher.py	/^  payload = {}$/;"	v
+payload	core/python3AiActionLoop/lib/launcher.py	/^      payload = args["value"]$/;"	v
+payload	core/python3AiActionLoop/lib/launcher.py	/^  payload = {}$/;"	v
+print_time	core/python3AiActionLoop/samples/smart-body-crop/inference.py	/^def print_time(message, start):$/;"	f
+read_img	core/python3AiActionLoop/samples/smart-body-crop/inference.py	/^    def read_img(self, imgpath, width, height):$/;"	m	class:SmartBodyCrop
+res	core/python3ActionLoop/lib/launcher.py	/^    res = main(payload)$/;"	v
+res	core/python3ActionLoop/lib/launcher.py	/^    res = {"error": str(ex)}$/;"	v
+res	core/python3ActionLoop/lib/launcher.py	/^  res = {}$/;"	v
+res	core/python3AiActionLoop/lib/launcher.py	/^    res = main(payload)$/;"	v
+res	core/python3AiActionLoop/lib/launcher.py	/^    res = {"error": str(ex)}$/;"	v
+res	core/python3AiActionLoop/lib/launcher.py	/^  res = {}$/;"	v
+save	gradlew	/^save () {$/;"	f
+tmp_path	core/python3AiActionLoop/samples/smart-body-crop/inference.py	/^    tmp_path = '\/tmp\/'$/;"	v	class:SmartBodyCrop
+tmpfs_path	core/python3AiActionLoop/samples/smart-body-crop/inference.py	/^    tmpfs_path = '\/mnt\/action\/'$/;"	v	class:SmartBodyCrop
+warn	gradlew	/^warn () {$/;"	f
+win9xME_args	gradlew.bat	/^:win9xME_args$/;"	l
+win9xME_args_slurp	gradlew.bat	/^:win9xME_args_slurp$/;"	l

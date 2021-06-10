@@ -50,10 +50,11 @@ RUN pip install \
     simplejson==3.16.0 \
     virtualenv==16.0.0 \
     twisted==18.7.0 \
-    mypy==0.812 \
     numpy==1.20.3 \
-    Django==3.2.3 \
-    sphinx==4.0.2
+    pandas==1.2.4 \
+    pyaes==1.6.1 \
+    scikit-learn==0.24.2 \
+    opencv-python==4.5.2.54
 
 RUN mkdir -p /action
 WORKDIR /
