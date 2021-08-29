@@ -54,7 +54,11 @@ RUN pip install \
     pandas==1.2.4 \
     pyaes==1.6.1 \
     scikit-learn==0.24.2 \
-    opencv-python==4.5.2.54
+    Pillow==8.3.1 \
+    Chameleon==3.9.1 \
+    torch==1.9.0
+
+RUN sudo apt-get install python3-opencv
 
 RUN mkdir -p /action
 WORKDIR /
