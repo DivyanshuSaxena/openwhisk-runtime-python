@@ -52,9 +52,9 @@ RUN pip install \
     twisted==18.7.0 \
     numpy==1.20.3 \
     pandas==1.2.4 \
-    pyaes==1.6.1 \
     scikit-learn==0.24.2 \
-    opencv-python==4.5.2.54
+    Pillow==8.3.1 \
+    chameleon
 
 RUN mkdir -p /action
 WORKDIR /
