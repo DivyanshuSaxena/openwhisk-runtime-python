@@ -38,6 +38,12 @@ FROM python:3.7-buster
 # select the builder to use
 ARG GO_PROXY_BUILD_FROM=release
 
+RUN apt-get update \
+    && apt-get install ffmpeg libsm6 libxext6 -y \
+    && apt install python3-opencv -y
+
+RUN pip3 install torch==1.9.0+cpu torchvision==0.10.0+cpu torchaudio==0.9.0 -f https://download.pytorch.org/whl/torch_stable.html
+
 # Install common modules for python
 RUN pip install \
     beautifulsoup4==4.6.3 \
@@ -55,10 +61,8 @@ RUN pip install \
     pyaes==1.6.1 \
     scikit-learn==0.24.2 \
     Pillow==8.3.1 \
-    Chameleon==3.9.1 \
-    torch==1.9.0
-
-RUN sudo apt-get install python3-opencv
+    opencv-python==4.5.3.56 \
+    chameleon
 
 RUN mkdir -p /action
 WORKDIR /
