@@ -54,7 +54,11 @@ RUN pip install \
     pandas==1.2.4 \
     scikit-learn==0.24.2 \
     Pillow==8.3.1 \
-    chameleon
+    Chameleon \
+    multiprocess \
+    opencv-python==4.5.5.62 \
+    pyaes==1.6.1 \
+    torch==1.10.2+cpu torchvision==0.11.3+cpu torchaudio==0.10.2+cpu -f https://download.pytorch.org/whl/cpu/torch_stable.html
 
 RUN mkdir -p /action
 WORKDIR /
